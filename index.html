@@ -8,12 +8,13 @@
 		<script src="./js/submit.js"></script>
     </head>
     <body>
-    	<header>
-    		Dados para Itaú - Ceres Prado
+		<header>
+    		Preencha seus dados para se cadastrar
     	</header>
-    	 	<div class="form">
-		<h3>Insira os seus dados para fazer o cadastro</h3>
-		<form id="form" method="POST" data-netlify="true" action="./index.html" onsubmit="javascript:confirmacao()">
+	<div class=mainbody>
+    	<div class="form">
+			<h3>Insira os seus dados para fazer o cadastro</h3>
+			<form id="form" method="POST" data-netlify="true" action="./index.html" onsubmit="javascript:confirmacao()">
     			<div class="formfield">
     				<label for="name">
     						Nome
@@ -86,9 +87,23 @@
 					<button type="reset">Limpar</button>
 					<button type="submit">Enviar</button>
    				</div>
-		</div>
     		</form>
-   </body>
+		</div>
+	</div>
+		<div id="rodape" class=rodape>
+				<table margin="2">
+					<tr>
+						<td><img src="./imagens/ceres.jpg"
+						width="50%"
+  						>
+						</td>
+						<td><h4><b>Autora:</b> Ceres Prado <br/>
+						<b>Contato:</b> ceresp@gmail.com</h4>
+						</td>
+					</tr>
+				</table>
+		</div>
+	</body>
 </html>
 
 
