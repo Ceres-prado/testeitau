@@ -18,6 +18,7 @@ header{
 }
 .formfield{
 	margin: 0.1rem 0rem 0.1rem 0rem;
+	padding-bottom: 1rem;
 }
 .clear{
 	clear: both;
