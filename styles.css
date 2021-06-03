@@ -1,0 +1,44 @@
+body{
+	margin: 2 10 10 2;
+	padding: 20;
+}
+
+header{
+	height: 1.8rem;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ff0;
+	padding-top: .6rem;
+	margin: 2rem 25rem 1rem 25rem;
+	background-color: #993399;
+}
+.form{
+	text-align: center;
+}
+.formfield{
+	margin: 0.1rem 0rem 0.1rem 0rem;
+}
+.clear{
+	clear: both;
+}
+.center{
+	text-align: center;
+}
+.buttons{
+	padding: 0.3rem 0;	
+}
+.buttons input{
+	cursor: pointer;
+}
+input:invalid {
+	border: 2px dashed red;
+  }
+  
+  input:invalid:required {
+	border: 2px dashed red;
+  }
+  
+  input:valid {
+	border: 1px solid black;
+  }
